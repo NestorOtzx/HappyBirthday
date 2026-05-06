@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e6e1c815f7bb54a96b5135054f37b1, type: 3}
+  m_Name: FlowerData_25
+  m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Data.FlowerData
+  flowerId: 25
+  title: Flor 25
+  message: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sem
+    non justo luctus aliquet. Flor 25 guarda una nota temporal para probar el sistema
+    de cartas del jardin.
+  hasSpecialGift: 1
+  giftDescription: Lorem ipsum regalo especial de la flor 25.
+  lockedSprite: {fileID: 21300000, guid: 77068b8eb0f65ea46b5335a6dafb43b0, type: 3}
+  availableSprite: {fileID: 21300000, guid: 5340f60b465c87148bd3e9ddbd9b4b40, type: 3}
+  openedSprite: {fileID: 21300000, guid: b90b478e72316a54cb89929c6a5d61ce, type: 3}

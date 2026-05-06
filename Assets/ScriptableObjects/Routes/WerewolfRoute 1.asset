@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0bf06f1ccd6333438931c6f54256ca6, type: 3}
+  m_Name: WerewolfRoute 1
+  m_EditorClassIdentifier: 
+  waypoints:
+  - position: {x: -14.294534, y: 0.44153002}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -15.005122, y: -1.3700187}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -14.01168, y: -3.0809474}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -10.645014, y: -3.3569036}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -9.265232, y: -5.0126405}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -8.216599, y: -7.4962463}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -5.9537582, y: -8.655263}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -1.9247973, y: -8.213733}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 0.117278576, y: -7.6618204}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 3.5943272, y: -6.2820396}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 6.1331244, y: -4.129581}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 6.1883154, y: -1.9771224}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 6.0227413, y: 0.23052722}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 3.980666, y: 1.9966469}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 3.3183706, y: 2.9348984}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 3.6495183, y: 4.8114004}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 4.8085346, y: 6.0807986}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 5.746785, y: 7.0190496}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 6.0227413, y: 9.613038}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 5.029299, y: 10.882438}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 2.7664583, y: 11.434349}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 0.83476496, y: 10.772055}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -0.8761637, y: 9.061127}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -1.6488411, y: 6.5223284}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -0.8761637, y: 5.032165}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -0.1034863, y: 3.4316192}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 1.7178247, y: 1.7206907}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 2.3801196, y: -0.5973414}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 2.7112672, y: -1.3700187}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: 0.61399984, y: -2.253079}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -1.3176936, y: -1.0940626}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -2.3663273, y: 1.2791607}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -2.5870922, y: 3.2660456}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -5.3466544, y: 4.9769735}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -8.658129, y: 4.038723}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -10.0931015, y: 2.3829856}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -11.196926, y: 2.2726033}
+    speedMultiplier: 1
+    waitSeconds: 0
+  - position: {x: -13.018237, y: 0.67205715}
+    speedMultiplier: 1
+    waitSeconds: 0
+  linePlacementSpacing: 5
+  defaultSpeedMultiplier: 1
+  defaultWaitSeconds: 0

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dabebff7850bbb46988d0a396f4f803, type: 3}
+  m_Name: GardenConfig
+  m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Data.GardenConfig
+  totalFlowers: 25
+  dailyUnlockEnabled: 1
+  startYear: 2026
+  startMonth: 5
+  startDay: 6
