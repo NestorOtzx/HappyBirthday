@@ -6,7 +6,7 @@ namespace HappyBirthday.Interactables
     [RequireComponent(typeof(Collider2D))]
     public class MessageInteractable : MonoBehaviour, IInteractable
     {
-        [SerializeField] private string promptText = "Presiona E";
+        [SerializeField] private string promptText = "Presiona [E]";
         [SerializeField] private string title = "Garden note";
 
         [TextArea(3, 8)]

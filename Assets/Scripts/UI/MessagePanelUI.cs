@@ -1,4 +1,5 @@
 using HappyBirthday.Data;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,10 +8,10 @@ namespace HappyBirthday.UI
     public class MessagePanelUI : MonoBehaviour
     {
         [SerializeField] private GameObject root;
-        [SerializeField] private Text titleText;
-        [SerializeField] private Text messageText;
+        [SerializeField] private TextMeshProUGUI titleText;
+        [SerializeField] private TextMeshProUGUI messageText;
         [SerializeField] private GameObject giftRoot;
-        [SerializeField] private Text giftText;
+        [SerializeField] private TextMeshProUGUI giftText;
         [SerializeField] private Button closeButton;
 
         private void Awake()

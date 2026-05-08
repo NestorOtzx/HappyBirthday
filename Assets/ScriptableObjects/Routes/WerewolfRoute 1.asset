@@ -13,58 +13,58 @@ MonoBehaviour:
   m_Name: WerewolfRoute 1
   m_EditorClassIdentifier: 
   waypoints:
-  - position: {x: -14.294534, y: 0.44153002}
+  - position: {x: -14.314632, y: 1.4665027}
+    speedMultiplier: 1
+    waitSeconds: 5
+  - position: {x: -17.075167, y: 0.8809016}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: -15.005122, y: -1.3700187}
+  - position: {x: -13.8509, y: -2.5986075}
+    speedMultiplier: 1
+    waitSeconds: 5
+  - position: {x: -10.383747, y: -2.934856}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: -14.01168, y: -3.0809474}
+  - position: {x: -8.019189, y: -5.57537}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: -10.645014, y: -3.3569036}
+  - position: {x: -6.4681177, y: -7.3957586}
     speedMultiplier: 1
-    waitSeconds: 0
-  - position: {x: -9.265232, y: -5.0126405}
-    speedMultiplier: 1
-    waitSeconds: 0
-  - position: {x: -8.216599, y: -7.4962463}
-    speedMultiplier: 1
-    waitSeconds: 0
-  - position: {x: -5.9537582, y: -8.655263}
+    waitSeconds: 5
+  - position: {x: -4.32586, y: -8.976823}
     speedMultiplier: 1
     waitSeconds: 0
   - position: {x: -1.9247973, y: -8.213733}
     speedMultiplier: 1
-    waitSeconds: 0
-  - position: {x: 0.117278576, y: -7.6618204}
+    waitSeconds: 5
+  - position: {x: 1.202543, y: -8.425525}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 3.5943272, y: -6.2820396}
+  - position: {x: 3.554133, y: -6.181552}
     speedMultiplier: 1
     waitSeconds: 0
   - position: {x: 6.1331244, y: -4.129581}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 6.1883154, y: -1.9771224}
+  - position: {x: 8.017187, y: -1.8364397}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 6.0227413, y: 0.23052722}
+  - position: {x: 6.746252, y: 0.06974727}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 3.980666, y: 1.9966469}
+  - position: {x: 5.0860295, y: 1.956452}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 3.3183706, y: 2.9348984}
+  - position: {x: 3.4389546, y: 3.2363608}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 3.6495183, y: 4.8114004}
+  - position: {x: 5.4984875, y: 4.6506205}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 4.8085346, y: 6.0807986}
+  - position: {x: 6.9187727, y: 6.100896}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 5.746785, y: 7.0190496}
+  - position: {x: 3.2345984, y: 8.003826}
     speedMultiplier: 1
     waitSeconds: 0
   - position: {x: 6.0227413, y: 9.613038}
@@ -73,24 +73,24 @@ MonoBehaviour:
   - position: {x: 5.029299, y: 10.882438}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 2.7664583, y: 11.434349}
+  - position: {x: 3.4488227, y: 10.151505}
+    speedMultiplier: 1
+    waitSeconds: 5
+  - position: {x: 1.2987721, y: 9.134382}
     speedMultiplier: 1
     waitSeconds: 0
-  - position: {x: 0.83476496, y: 10.772055}
+  - position: {x: 0.37938547, y: 7.559927}
     speedMultiplier: 1
-    waitSeconds: 0
-  - position: {x: -0.8761637, y: 9.061127}
-    speedMultiplier: 1
-    waitSeconds: 0
-  - position: {x: -1.6488411, y: 6.5223284}
+    waitSeconds: 5
+  - position: {x: -3.286512, y: 6.9317465}
     speedMultiplier: 1
     waitSeconds: 0
   - position: {x: -0.8761637, y: 5.032165}
     speedMultiplier: 1
-    waitSeconds: 0
+    waitSeconds: 5
   - position: {x: -0.1034863, y: 3.4316192}
     speedMultiplier: 1
-    waitSeconds: 0
+    waitSeconds: 5
   - position: {x: 1.7178247, y: 1.7206907}
     speedMultiplier: 1
     waitSeconds: 0
@@ -99,13 +99,13 @@ MonoBehaviour:
     waitSeconds: 0
   - position: {x: 2.7112672, y: -1.3700187}
     speedMultiplier: 1
-    waitSeconds: 0
+    waitSeconds: 5
   - position: {x: 0.61399984, y: -2.253079}
     speedMultiplier: 1
     waitSeconds: 0
   - position: {x: -1.3176936, y: -1.0940626}
     speedMultiplier: 1
-    waitSeconds: 0
+    waitSeconds: 5
   - position: {x: -2.3663273, y: 1.2791607}
     speedMultiplier: 1
     waitSeconds: 0
@@ -114,10 +114,10 @@ MonoBehaviour:
     waitSeconds: 0
   - position: {x: -5.3466544, y: 4.9769735}
     speedMultiplier: 1
-    waitSeconds: 0
+    waitSeconds: 5
   - position: {x: -8.658129, y: 4.038723}
     speedMultiplier: 1
-    waitSeconds: 0
+    waitSeconds: 5
   - position: {x: -10.0931015, y: 2.3829856}
     speedMultiplier: 1
     waitSeconds: 0
@@ -126,7 +126,7 @@ MonoBehaviour:
     waitSeconds: 0
   - position: {x: -13.018237, y: 0.67205715}
     speedMultiplier: 1
-    waitSeconds: 0
+    waitSeconds: 5
   linePlacementSpacing: 5
   defaultSpeedMultiplier: 1
-  defaultWaitSeconds: 0
+  defaultWaitSeconds: 5

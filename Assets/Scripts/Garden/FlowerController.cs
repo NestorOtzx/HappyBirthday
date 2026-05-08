@@ -17,7 +17,7 @@ namespace HappyBirthday.Garden
         public int FlowerId => flowerData != null ? flowerData.flowerId : flowerId;
         public FlowerData Data => flowerData;
         public FlowerState State { get; private set; } = FlowerState.Locked;
-        public string PromptText => State == FlowerState.Opened ? "Presiona E para leer" : "Presiona E para abrir";
+        public string PromptText => State == FlowerState.Opened ? "Presiona [E] para leer" : "Presiona [E] para abrir";
         public bool CanInteract => State != FlowerState.Locked;
         public Transform Transform => transform;
 
@@ -80,11 +80,14 @@ namespace HappyBirthday.Garden
                 {
                     spriteRenderer.sprite = nextSprite;
                 }
+                
+                spriteRenderer.enabled = State == FlowerState.Available || State == FlowerState.Locked;
+                
             }
 
             if (specialGiftMarker != null)
             {
-                specialGiftMarker.SetActive(State == FlowerState.Opened && flowerData != null && flowerData.hasSpecialGift);
+                specialGiftMarker.SetActive(flowerData != null && flowerData.hasSpecialGift && State == FlowerState.Available);
             }
         }
     }

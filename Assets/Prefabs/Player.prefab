@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 1514135483849722591}
   - component: {fileID: 2606005669678590065}
   - component: {fileID: 6955006342148677654}
-  - component: {fileID: 8223589915917788006}
+  - component: {fileID: 994375951156882332}
+  - component: {fileID: 8420461217942930529}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -123,7 +124,7 @@ MonoBehaviour:
   walkDownAnimation: Walk_Down
   walkLeftAnimation: Walk_Left
   walkRightAnimation: Walk_Right
---- !u!114 &8223589915917788006
+--- !u!114 &994375951156882332
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,11 +133,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 1604362849831171367}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abe06f6dbc7d7b84e90de1a854018859, type: 3}
+  m_Script: {fileID: 11500000, guid: e65ae795921e9544f8c34f96ec25c052, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Player.PlayerController
-  moveSpeed: 4
-  animator: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::Nivelo.Player.PlayerMovement
+  maxMoveSpeed: 3
+  acceleration: 20
+  deceleration: 25
+  useFrictionWhenIdle: 1
+  frictionAmount: 8
+  horizontalAxis: Horizontal
+  verticalAxis: Vertical
+--- !u!114 &8420461217942930529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604362849831171367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be977160c1104e44be3d578b6be64ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Interactables.InteractableDetector
+  detectionRadius: 1.1
+  interactableLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3829129132790411613
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +241,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1636268434, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
+  m_Sprite: {fileID: -223716757, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -245,96 +267,115 @@ MonoBehaviour:
   spriteRenderer: {fileID: 6657977712850889020}
   image: {fileID: 0}
   sprites:
-  - {fileID: 1636268434, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -385636915, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1326445011, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -430128554, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1863635818, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1927028498, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1691112476, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1433187934, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 1331678686, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 1132710115, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1153099420, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1726948161, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1722018958, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 1870032491, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 551723775, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -391924866, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 13720470, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -652207389, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 1645186940, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 497823856, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1142101789, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1238507604, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1378111447, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -389519555, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 920163019, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -2040165710, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 1367600218, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -943398713, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: 1940696116, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -1819069842, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -677491218, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
-  - {fileID: -105145491, guid: 4d5131c91990c124185c6d728d5381c9, type: 3}
+  - {fileID: 1855934450, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1788753810, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1407190666, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -691406914, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1239409991, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -885410027, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1200977370, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 652923320, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 157514176, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 2096307828, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1505777452, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1403879968, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1212070479, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -406342748, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -740009847, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 329973918, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -871018092, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1216630839, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1246654377, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 834063700, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1638943009, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -223716757, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1112006022, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 484440831, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1895521499, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 513736082, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1351293788, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -416029427, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1374053419, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1233793085, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -1264326535, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1550373025, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1213517164, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 769102461, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 270053979, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 493126946, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 500597371, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1356068046, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 2143962003, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1739611497, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 977750410, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 1305413937, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: -940784879, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
+  - {fileID: 2078297693, guid: 8f638d3613f861140875071edc6ffd8a, type: 3}
   animations:
   - name: Idle_Down
-    frameIndices: 00000000010000000200000003000000
+    frameIndices: 2800000029000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
   - name: Idle_Right
-    frameIndices: 04000000050000000600000007000000
+    frameIndices: 2a0000002b000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
   - name: Idle_Up
-    frameIndices: 08000000090000000a0000000b000000
+    frameIndices: 2400000025000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
   - name: Idle_Left
-    frameIndices: 0c0000000d0000000e0000000f000000
+    frameIndices: 2600000027000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
   - name: Walk_Right
-    frameIndices: 1400000015000000140000000600000016000000170000001600000006000000
+    frameIndices: 1c0000001d0000001e0000001f00000020000000210000002200000023000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
   - name: Walk_Left
-    frameIndices: 1c0000001d0000001c0000000e0000001e0000001f0000001e0000000e000000
+    frameIndices: 0a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
   - name: Walk_Up
-    frameIndices: 1800000019000000180000000a0000001a0000001b0000001a0000000a000000
+    frameIndices: 0100000002000000030000000400000005000000060000000700000008000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
   - name: Walk_Down
-    frameIndices: 1000000011000000100000000200000012000000130000001200000002000000
+    frameIndices: 130000001400000015000000160000001700000018000000190000001a000000
     durationSeconds: 1
     loop: 1
     continueOnFinish: 0
     flipX: 0
     flipY: 0
-  footstepClips: []
-  footstepSpriteIndices: 
+  footstepClips:
+  - {fileID: 8300000, guid: f9f77b64b61c93e4b906ad043309cf2f, type: 3}
+  - {fileID: 8300000, guid: c08c15c3a14f8db4e88417e636d8adc5, type: 3}
+  - {fileID: 8300000, guid: 74b94e249683cd04cb6df2317b3682bb, type: 3}
+  - {fileID: 8300000, guid: e26ba6b03a6962444995a49526ffa2f4, type: 3}
+  - {fileID: 8300000, guid: d646eb99772561f4ea8cfe90c7b169f4, type: 3}
+  - {fileID: 8300000, guid: 6baa871ede9b74f448771ee88799daa3, type: 3}
+  - {fileID: 8300000, guid: 597868777d166c94abec335ceaa631a4, type: 3}
+  footstepSpriteIndices: 01000000040000000a0000000d00000013000000160000001c0000001f000000
   startAnimationDelay: 0
   startAnimation: front

@@ -1,4 +1,5 @@
 using HappyBirthday.Data;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,8 @@ namespace HappyBirthday.UI
 
         [SerializeField] private MessagePanelUI messagePanel;
         [SerializeField] private GameObject interactionPromptRoot;
-        [SerializeField] private Text interactionPromptText;
+        [SerializeField] private TextMeshProUGUI interactionPromptText;
+        [SerializeField] private TextMeshProUGUI shadowPromptText;
 
         private void Awake()
         {
@@ -62,6 +64,11 @@ namespace HappyBirthday.UI
             if (interactionPromptText != null)
             {
                 interactionPromptText.text = prompt;
+            }
+
+            if (shadowPromptText != null)
+            {
+                shadowPromptText.text = prompt;
             }
         }
 

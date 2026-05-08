@@ -1,5 +1,6 @@
 using HappyBirthday.Core;
 using HappyBirthday.SaveSystem;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,8 +18,8 @@ namespace HappyBirthday.UI
         [SerializeField] private AudioClip continueSfx;
 
         [Header("UI References")]
-        [SerializeField] private Text titleText;
-        [SerializeField] private Text bodyText;
+        [SerializeField] private TextMeshProUGUI titleText;
+        [SerializeField] private TextMeshProUGUI bodyText;
         [SerializeField] private Image illustrationImage;
         [SerializeField] private Button continueButton;
 

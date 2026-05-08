@@ -15,7 +15,7 @@ namespace Nivelo.Singletons.GameManagement
     protected override void Awake()
     {
       base.Awake();
-      GameManager.Instance.playerWorld = FindObjectOfType<PlayerManager>();
+      GameManager.Instance.playerWorld = FindFirstObjectByType<PlayerManager>();
     }
 
     public PlayerManager GetPlayerManager()

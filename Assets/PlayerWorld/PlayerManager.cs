@@ -12,22 +12,11 @@ namespace Nivelo.PlayerWorld
   
     private void Awake()
     {
-      SpriteAnimator spriteAnimator = GetComponentInChildren<SpriteAnimator>();
-      if (spriteAnimator == null)
-      {
-        return;
-      }
-
     
     }
 
     private void Start()
     {
-      if (WorldDataBus.HasPendingValues)
-      {
-        WorldData worldData = WorldDataBus.Consume(true);
-        transform.position = worldData.spawnPosition;
-      }
     }
 
   }
