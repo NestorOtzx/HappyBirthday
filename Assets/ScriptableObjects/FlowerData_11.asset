@@ -17,7 +17,7 @@ MonoBehaviour:
   message: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sem
     non justo luctus aliquet. Flor 11 guarda una nota temporal para probar el sistema
     de cartas del jardin.
-  hasSpecialGift: 0
+  hasSpecialGift: 1
   giftDescription: 
   lockedSprite: {fileID: 48016989, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}
   availableSprite: {fileID: 648032262, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}

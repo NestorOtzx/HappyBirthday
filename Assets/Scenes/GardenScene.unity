@@ -98821,6 +98821,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1191048363}
     m_Modifications:
+    - target: {fileID: 230029617625719326, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230029617625719326, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 230029617625719326, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 597332955375739117, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -98949,85 +98961,40 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7263239507147135081, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+    - target: {fileID: 7153734512583805236, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -47.3474
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7263239507147135081, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+    - target: {fileID: 7153734512583805236, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.525879
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116956078005011841, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116956078005011841, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8345323138948470222, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_Name
       value: MessagePanel
       objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+    - target: {fileID: 9170568926111105534, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_text
-      value: "Me alegra que existas y que haya podido coincidir contigo. \r\nGracias
+      value: "Me alegra que existas y que haya podido coincidir contigo. \nGracias
         por restarle un poco de realidad a mis d\xEDas con cada conversaci\xF3n.
-        \r\nMe alegra saber que tendremos muchos m\xE1s momentos para charlar. \r\nMe
-        gusta escucharte hablar.\r\nGracias por los momentos de silencio, donde no
-        es necesario hablar para entendernos.\r\nMe alegra encontrar tanta paz en
-        ti.\r\nMe gusta cada segundo que estamos juntos.\r\nGracias por dejarme pasar
-        las noches a tu lado. \r\nMe alegra que el mundo se quede quieto cada vez
-        que est\xE1s sobre mi cama y yo entre tus brazos. \r\nMe gusta dormir sintiendo
-        el ritmo de tu pecho.\r\nGracias por cada sonrisa que hemos compartido. \r\nMe
-        alegra que sin propon\xE9rtelo, seas mi mejor motivo para sonre\xEDr. \r\nMe
-        gusta verte reir y reir contigo.\r\nGracias por todo lo que eres y haces.\r\nMe
-        alegra ser alguien a quien quieres.\r\nMe gusta todo este cari\xF1o que te
-        traigo.\r\n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_fontSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 7f8a98d3125e60348be1c76fbe53801d, type: 2}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_fontSizeMax
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_fontSizeMin
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 74.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -2215105364599238252, guid: 7f8a98d3125e60348be1c76fbe53801d, type: 2}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517906620133919911, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9170568926111105534, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_text
-      value: Hola como es
-      objectReference: {fileID: 0}
-    - target: {fileID: 9170568926111105534, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 3fdf529a1d96cd34a918b4268b241ce1, type: 2}
-    - target: {fileID: 9170568926111105534, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -5682102094320844362, guid: 3fdf529a1d96cd34a918b4268b241ce1, type: 2}
-    - target: {fileID: 9170568926111105534, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
+        \nMe alegra saber que tendremos muchos m\xE1s momentos para charlar. \nMe
+        gusta escucharte hablar.\nGracias por los momentos de silencio, donde no
+        es necesario hablar para entendernos.\nMe alegra encontrar tanta paz en ti.\nMe
+        gusta cada segundo que estamos juntos.\nGracias por dejarme pasar las noches
+        a tu lado. \nMe alegra que el mundo se quede quieto cada vez que est\xE1s
+        sobre mi cama y yo entre tus brazos. \nMe gusta dormir sintiendo el ritmo
+        de tu pecho.\nGracias por cada sonrisa que hemos compartido. \nMe alegra
+        que sin propon\xE9rtelo, seas mi mejor motivo para sonre\xEDr. \nMe gusta
+        verte reir y reir contigo.\nGracias por todo lo que eres y haces.\nMe alegra
+        ser alguien a quien quieres.\nMe gusta todo este cari\xF1o que te traigo.\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -163767,7 +163734,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.507
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
