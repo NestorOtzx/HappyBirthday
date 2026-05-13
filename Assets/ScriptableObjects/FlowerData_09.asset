@@ -14,10 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Data.FlowerData
   flowerId: 9
   title: Flor 09
-  message: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sem
-    non justo luctus aliquet. Flor 09 guarda una nota temporal para probar el sistema
-    de cartas del jardin.
-  hasSpecialGift: 1
+  message: "Llovi\xF3 una vez m\xE1s.\n\nLos d\xEDas lluviosos se sienten bien:\nhacen
+    nueva la ciudad,\nredescubren las calles,\nlavan el cielo,\narrullan las penas,\nson
+    lienzo para nostalgias,\nexcusa ideal para parar unos momentos \nel mundo y sus
+    afanes.\n\nSi alguien me hubiese preguntado,\nantes de octubre del 2024,\nqu\xE9
+    forma tendr\xEDa la lluvia,\nde seguro no hubiese respondido \"humana\".\nPero
+    llegaste,\nla primera vez que apoy\xE9 mi cabeza en tu pecho\nfue volver a ser
+    ni\xF1a, mirar las gotas acariciar la ventana\ndel auto y quedarme dormida hasta
+    llegar a casa.\n\nA\xFAn no entiendo c\xF3mo puede una sonrisa\nagitar tanto
+    como un trueno,\ny unos ojos a su vez\nescampar el fr\xEDo de adentro,\ny que
+    esta mezcla te habite\nsin ning\xFAn esfuerzo,\ncomo si fuese perfectamente\nnatural
+    en ti.\n\n\nNo pens\xE9 que aparte de la lluvia,\n encontrar\xEDa en alguien
+    un clima apto para el coraz\xF3n,\nese tipo de suertes solo tienen una forma
+    \nde ser disfrutadas como ameritan,\ncerrando los ojos y dej\xE1ndose empapar.\nMe
+    alegra haberte conocido \ny que lluevas sobre m\xED \ntodo lo que eres.\n"
+  hasSpecialGift: 0
   giftDescription: 
   lockedSprite: {fileID: 48016989, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}
   availableSprite: {fileID: 648032262, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}

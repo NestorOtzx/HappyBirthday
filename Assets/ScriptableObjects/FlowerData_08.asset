@@ -14,10 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Data.FlowerData
   flowerId: 8
   title: Flor 08
-  message: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sem
-    non justo luctus aliquet. Flor 08 guarda una nota temporal para probar el sistema
-    de cartas del jardin.
-  hasSpecialGift: 1
+  message: "La vida es m\xE1s sencilla de lo que parece. Resulta hasta chistoso pensar
+    que todo este tiempo me la compliqu\xE9 sin motivo alguno. (Bueno, realmente
+    el motivo era que me faltabas tu)\nQue lo diga alguien como yo puede sonar extra\xF1o,
+    y en parte todav\xEDa lo sigue siendo para m\xED; pero a veces uno se encuentra
+    con algo o alguien que le sacude toda la vida sin aviso previo. Vos fuiste uno
+    de esos temblores, pero para bien, completamente para bien.\nNo existe lujo m\xE1s
+    grande que poder abrazarte cada vez que te veo, ni placer m\xE1s bonito que sentarnos
+    a charlar mientras nos tomamos un cafecito (opcional, pero bienvenido). Nada
+    de lo que pueda conseguir afuera ocupar\xE1 el espacio, que te hiciste en mi
+    corazoncito, ni siquiera una tristeza podr\xEDa entrar ah\xED, est\xE1 tan hecho
+    a tu forma que solo cab\xE9s vos, y eso est\xE1 de primero en la checklist de
+    las cositas que me hacen feliz.\nLa vida contigo es sencilla, amarte es sencillo.\n"
+  hasSpecialGift: 0
   giftDescription: 
   lockedSprite: {fileID: 48016989, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}
   availableSprite: {fileID: 648032262, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}

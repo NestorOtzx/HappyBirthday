@@ -14,9 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Data.FlowerData
   flowerId: 4
   title: Flor 04
-  message: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel sem
-    non justo luctus aliquet. Flor 04 guarda una nota temporal para probar el sistema
-    de cartas del jardin.
+  message: "Admiro profundamente qui\xE9n eres y en qui\xE9n te has convertido en
+    estos meses que he tenido el placer de descubrirte.\nLa firmeza de tus valores,
+    \nel esfuerzo que pones en todo lo que haces, \nesa sonrisa que aparece cuando
+    algo te apasiona, \ntu capacidad para pausar el mundo y escuchar de verdad, \nla
+    calidez que se desprende de ti incluso cuando las cosas no salen como esperabas.
+    \nTodo eso me inspira y me motiva a querer ser una mejor versi\xF3n de m\xED
+    misma.\nQuiero estar a tu lado. Quiero acompa\xF1arte en tu crecimiento, sostenerte
+    cuando el camino se ponga dif\xEDcil y ofrecerte lo m\xE1s bonito que pueda encontrar
+    en m\xED. Quiero que sientas, en cada peque\xF1a cosa, todo el cari\xF1o que
+    tengo por ti.\nEres alguien verdaderamente incre\xEDble, soy afortunada de tenerte
+    a mi lado.\n"
   hasSpecialGift: 0
   giftDescription: 
   lockedSprite: {fileID: 48016989, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}

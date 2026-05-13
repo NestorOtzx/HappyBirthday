@@ -9,6 +9,7 @@ namespace HappyBirthday.UI
     {
         [SerializeField] private GameObject root;
         [SerializeField] private TextMeshProUGUI titleText;
+        [SerializeField] private GameObject messageRoot;
         [SerializeField] private TextMeshProUGUI messageText;
         [SerializeField] private ScrollRect messageScrollRect;
         [SerializeField] private Scrollbar messageScrollbar;
@@ -56,6 +57,9 @@ namespace HappyBirthday.UI
             bool hasGift = hasSpecialGift && !string.IsNullOrWhiteSpace(giftDescription);
             if (giftRoot != null) giftRoot.SetActive(hasGift);
             if (giftText != null) giftText.text = hasGift ? giftDescription : string.Empty;
+
+            bool hasMessage = !string.IsNullOrWhiteSpace(message);
+            messageRoot.SetActive(hasMessage);
 
             root.SetActive(true);
             RefreshScrollAreas();

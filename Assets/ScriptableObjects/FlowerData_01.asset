@@ -14,18 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Data.FlowerData
   flowerId: 1
   title: Flor 01
-  message: "Me alegra que existas y que haya podido coincidir contigo. \r\nGracias
-    por restarle un poco de realidad a mis d\xEDas con cada conversaci\xF3n. \r\nMe
-    alegra saber que tendremos muchos m\xE1s momentos para charlar. \r\nMe gusta
-    escucharte hablar.\r\nGracias por los momentos de silencio, donde no es necesario
-    hablar para entendernos.\r\nMe alegra encontrar tanta paz en ti.\r\nMe gusta
-    cada segundo que estamos juntos.\r\nGracias por dejarme pasar las noches a tu
-    lado. \r\nMe alegra que el mundo se quede quieto cada vez que est\xE1s sobre
-    mi cama y yo entre tus brazos. \r\nMe gusta dormir sintiendo el ritmo de tu pecho.\r\nGracias
-    por cada sonrisa que hemos compartido. \r\nMe alegra que sin propon\xE9rtelo,
-    seas mi mejor motivo para sonre\xEDr. \r\nMe gusta verte reir y reir contigo.\r\nGracias
-    por todo lo que eres y haces.\r\nMe alegra ser alguien a quien quieres.\r\nMe
-    gusta todo este cari\xF1o que te traigo.\r\n"
+  message: "Sol\xEDa pensar que solo encontrar\xEDa amor, belleza y calidez en los
+    poemas que escrib\xEDa, me hab\xEDa convencido de eso. Sin saberlo, me hiciste
+    ver que todas esas cosas no son \xFAnicamente palabras: me demostraste que puedo
+    encontrarlas entre los brazos de alguien, y que incluso sin estar sobre una hoja
+    de papel, era posible escribir una historia m\xE1s bonita de lo que jam\xE1s
+    me hubiera imaginado. Gracias por sacar de la tinta todo lo que en alg\xFAn momento
+    sent\xED tan lejano. Sin duda, hay que llevar una buena dosis de magia adentro
+    para poder hacer algo as\xED posible."
   hasSpecialGift: 0
   giftDescription: 
   lockedSprite: {fileID: 48016989, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}
