@@ -31,12 +31,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7263239507147135081}
-  m_Father: {fileID: 597332955375739117}
+  m_Father: {fileID: 5806138361368960678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 574.43}
-  m_SizeDelta: {x: 600, y: 457.07}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5309912852711494107
 CanvasRenderer:
@@ -76,6 +76,70 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 0.5
+--- !u!1 &2120808096219671986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5806138361368960678}
+  - component: {fileID: 2043067490172089344}
+  m_Layer: 0
+  m_Name: Container
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5806138361368960678
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120808096219671986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6072317831982149563}
+  - {fileID: 2086607010361063209}
+  m_Father: {fileID: 597332955375739117}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 5.2283, y: 6.3349}
+  m_SizeDelta: {x: 1189.5737, y: 723.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2043067490172089344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120808096219671986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 20.74
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &2724645717933162352
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2086607010361063209
 RectTransform:
   m_ObjectHideFlags: 0
@@ -101,18 +165,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2724645717933162352}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7153734512583805236}
-  m_Father: {fileID: 597332955375739117}
+  m_Father: {fileID: 5806138361368960678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 211.58536}
-  m_SizeDelta: {x: 600, y: 231.9828}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 594.78687, y: -547.645}
+  m_SizeDelta: {x: 1189.5737, y: 351.27002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2083693413686014604
 CanvasRenderer:
@@ -551,7 +615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: sadasd
+  m_text: Hola como es
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3fdf529a1d96cd34a918b4268b241ce1, type: 2}
   m_sharedMaterial: {fileID: -5682102094320844362, guid: 3fdf529a1d96cd34a918b4268b241ce1, type: 2}
@@ -792,8 +856,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8806387163023510571}
-  - {fileID: 6072317831982149563}
-  - {fileID: 2086607010361063209}
+  - {fileID: 5806138361368960678}
   - {fileID: 8043417798867850135}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -892,8 +955,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.1810913, y: 2.651001}
-  m_SizeDelta: {x: -46.6578, y: -45.5974}
+  m_AnchoredPosition: {x: -3.1810303, y: 3.525879}
+  m_SizeDelta: {x: -46.6578, y: -47.3474}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1584525687112369903
 CanvasRenderer:
@@ -923,10 +986,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: sdasdsad
+  m_text: "Me alegra que existas y que haya podido coincidir contigo. \r\nGracias
+    por restarle un poco de realidad a mis d\xEDas con cada conversaci\xF3n. \r\nMe
+    alegra saber que tendremos muchos m\xE1s momentos para charlar. \r\nMe gusta
+    escucharte hablar.\r\nGracias por los momentos de silencio, donde no es necesario
+    hablar para entendernos.\r\nMe alegra encontrar tanta paz en ti.\r\nMe gusta
+    cada segundo que estamos juntos.\r\nGracias por dejarme pasar las noches a tu
+    lado. \r\nMe alegra que el mundo se quede quieto cada vez que est\xE1s sobre
+    mi cama y yo entre tus brazos. \r\nMe gusta dormir sintiendo el ritmo de tu pecho.\r\nGracias
+    por cada sonrisa que hemos compartido. \r\nMe alegra que sin propon\xE9rtelo,
+    seas mi mejor motivo para sonre\xEDr. \r\nMe gusta verte reir y reir contigo.\r\nGracias
+    por todo lo que eres y haces.\r\nMe alegra ser alguien a quien quieres.\r\nMe
+    gusta todo este cari\xF1o que te traigo.\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3fdf529a1d96cd34a918b4268b241ce1, type: 2}
-  m_sharedMaterial: {fileID: -5682102094320844362, guid: 3fdf529a1d96cd34a918b4268b241ce1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7f8a98d3125e60348be1c76fbe53801d, type: 2}
+  m_sharedMaterial: {fileID: -2215105364599238252, guid: 7f8a98d3125e60348be1c76fbe53801d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -950,12 +1024,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 30
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 40
+  m_fontSizeMax: 50
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
