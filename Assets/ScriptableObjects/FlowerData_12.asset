@@ -14,7 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HappyBirthday.Data.FlowerData
   flowerId: 12
   title: Flor 12
-  message: poema 10
+  message: "Me gusta cuando pones tus manos cerca de las m\xEDas \r\ny las puedo
+    acariciar, \r\nporque en cada una de sus l\xEDneas\r\nse dibuja un mapa \r\nque
+    mis dedos descubren.\r\n\r\nA veces ese mapa me lleva de regreso a casa,\r\notras
+    me acerca a los recuerdos tiernos que escribimos,\r\no se convierte en radiograf\xEDa
+    de tu coraz\xF3n;\r\nme recorre despacio por tus cicatrices y alegr\xEDas\r\ny
+    aunque crea haberlo recorrido entero,\r\nsiempre encuentro un camino nuevo en
+    ti.\r\n\r\nPodr\xEDa pasarme la vida aprendiendo tus manos,\r\na\xF1adiendo nuevas
+    l\xEDneas al mapa,\r\nsin cansarme nunca de volver a ellas.\r\n"
   hasSpecialGift: 0
   giftDescription: 
   lockedSprite: {fileID: 48016989, guid: 31ec5b3575b0d4547a2fcea354fb88bc, type: 3}

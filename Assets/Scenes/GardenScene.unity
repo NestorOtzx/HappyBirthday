@@ -4166,7 +4166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -53.5, y: -46.7}
+  m_AnchoredPosition: {x: -53.5, y: -46.69995}
   m_SizeDelta: {x: 84.3818, y: 72.6211}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &58169795
@@ -95554,7 +95554,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.5174713
+      value: 0.86213684
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -99068,6 +99068,26 @@ PrefabInstance:
       propertyPath: m_Value
       value: 0.94948405
       objectReference: {fileID: 0}
+    - target: {fileID: 1695621467289422186, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_text
+      value: "\xA1Gracias!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695621467289422186, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_fontSize
+      value: 26.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695621467289422186, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695621467289422186, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_TextWrappingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695621467289422186, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2086607010361063209, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -99126,7 +99146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7153734512583805236, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 67.99999
+      value: 3.435089
       objectReference: {fileID: 0}
     - target: {fileID: 7263239507147135081, guid: a3399ae14fea217428bb91ba1d51c785, type: 3}
       propertyPath: m_SizeDelta.y
@@ -155769,11 +155789,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 912682064607326884, guid: f55aad91e91259b47b4335c67156c079, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.86
+      value: -1.01
       objectReference: {fileID: 0}
     - target: {fileID: 912682064607326884, guid: f55aad91e91259b47b4335c67156c079, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.59
+      value: 14.67
       objectReference: {fileID: 0}
     - target: {fileID: 912682064607326884, guid: f55aad91e91259b47b4335c67156c079, type: 3}
       propertyPath: m_LocalPosition.z
